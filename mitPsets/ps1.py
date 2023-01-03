@@ -3,7 +3,7 @@
 def Prime(x):
     arr = [2]
     i = 2
-    for n in range(1000000):
+    for n in range(x * 100):
         if(len(arr) == x):
             #when arr is of length == to x then you have found the xth prime
             print(arr)
