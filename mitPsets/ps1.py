@@ -1,21 +1,21 @@
-#hours spent = 5:00
+#hours spent = 3:00
 #name = dominic denti
-def Prime(prime):
+
+def Prime(prime): 
     primeArr = [2]
-    iterator = 2
+    it = 2 #it is short for iterator
     for n in range(prime * 100):
-        if(len(primeArr) == x):
-            #when arr is of length == to x then you have found the xth prime
-            print(primeArr)
+        if(len(primeArr) == prime):
+            #when arr is of length == to prime then you have found the primeth prime
             return primeArr[-1]
         for m in range(len(primeArr)+1):
             if(m >= len(primeArr)):
-                #if k > length of array then i must be prime
-                primeArr.append(i)
-                iterator += 1
+                #if m > length of array then it must be prime
+                primeArr.append(it)
+                it += 1
                 break
-            if(iterator%primeArr[k] == 0):
-                #if i%arr[k] == 0 then i is compesite
-                iterator += 1
+            if(it%primeArr[m] == 0):
+                #if it%primeArr[m] == 0 then it is compesite
+                it += 1
                 break
-print(Prime(1000))
+print(Prime(100))
