@@ -27,4 +27,4 @@ def Prime(prime):
                 it += 1
                 break
 idk = input("what prime do you want to find?: ")
-print(Prime(idk))
+print(Prime(int(idk)))
