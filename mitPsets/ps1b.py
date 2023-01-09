@@ -36,5 +36,5 @@ def logPrimes(ttr): #ttr = times to run
         if(n >= 1):
             ratioArr.append(PrimeArr[n-1]/PrimeArr[n])
     return ratioArr
-x = input("enter num")
+x = input("enter number: ")
 print(logPrimes(int(x)))
