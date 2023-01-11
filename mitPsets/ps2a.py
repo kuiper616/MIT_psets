@@ -1,7 +1,7 @@
 #hours spent = 0:00
 #name: dominic denti
 
-"""this solves all diophantine equations assuming a6 + b9 + c20 = n
+"""this solves all diophantine equations assuming ai + bj + ck = n
 """
 def diophantineEquations(x,arr):
     for i in range(int(x/arr[0]) + 1):
