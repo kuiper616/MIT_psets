@@ -1,4 +1,4 @@
-#hours spent = 0:00
+#hours spent = 0:30
 #name: dominic denti
 
 """this solves all diophantine equations assuming ai + bj + ck = n
