@@ -28,4 +28,3 @@ def countSubStringMatchRecursive(target, key, matchs=0,stringMatchCounter=0):
         matchs = 0
     key = key[1:len(key)]
     return countSubStringMatchRecursive(target, key, matchs, stringMatchCounter)
-print(countSubStringMatchRecursive("10","hello, World!"))
