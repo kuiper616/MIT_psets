@@ -1,4 +1,4 @@
-# hours spent = 0:00
+# hours spent = 0:43
 # name = dominic denti
 
 from string import *
