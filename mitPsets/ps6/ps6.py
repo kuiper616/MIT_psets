@@ -267,7 +267,6 @@ def rearrange_arr(hand):
                 arr.append(temp_str)
                 temp_str = ""
     return(arr[1:])
-# print(rearrange_arr(deal_hand(HAND_SIZE)))
 
 def pick_best_word_faster(hand, rearrange_dict):
     """
